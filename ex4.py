@@ -8,10 +8,10 @@ def draw_stick_figure(canvas):
     canvas.create_line(75, 100, 75, 200, fill="black", width=2)
 
     # 左腕
-    canvas.create_line(75, 110, 30, 90, fill="black", width=2)
+    canvas.create_line(75, 130, 30, 90, fill="black", width=2)
 
     # 右腕
-    canvas.create_line(75, 110, 120, 90, fill="black", width=2)
+    canvas.create_line(75, 130, 120, 90, fill="black", width=2)
 
     # 左脚
     canvas.create_line(75, 200, 50, 250, fill="black", width=2)
