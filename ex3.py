@@ -2,8 +2,6 @@ import zipfile
 
 zip_file_path="sample.zip"
 
-# zipファイルの読み込み
-
     
 
 # 奇数のファイル名から数字を取得して合計を計算
