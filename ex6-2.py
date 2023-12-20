@@ -33,7 +33,7 @@ for person_id in range(2):
     left_x_shoulder_keypoint = data["people"][person_id]["pose_keypoints_2d"][5*3]/7
     right_x_shoulder_keypoint = data["people"][person_id]["pose_keypoints_2d"][2*3]/7
     left_y_shoulder_keypoint = data["people"][person_id]["pose_keypoints_2d"][5*3+1]/7
-    right_y_shoulder_keypoint = data["people"][person_id]["pose_keypoints_2d"][2*3+1]/7
+    right_y_shoulder_keypoint = data["people"][person_id]["pose_keypoints_2d"][2*3+1]
 
 # 肩のラインを描画
     canvas.create_oval(right_x_shoulder_keypoint-2, right_y_shoulder_keypoint-2, right_x_shoulder_keypoint+2, right_y_shoulder_keypoint+2, outline="black", width=2)
